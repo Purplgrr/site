@@ -1,0 +1,161 @@
+<html >
+<head>
+   <meta charset="utf-8" />
+   <title>Discography</title>
+</head>
+<body>
+    <ul type="none">
+        <li ><a href="hip-hop.html">Главная страница</a></li>      
+        <li><a href="label.html"><b><big>Дискография артистов</big></b></a></li>
+        <li><a href="labels.html">Лэйблы артистов</a></li>
+    </ul>
+    <hr>		
+<details>
+    <summary>Фильтр</summary>
+    <form>
+        <p>
+           <label for="name">Имя:</label>
+		   <input type=text name="name">
+        </p>
+        <p>
+		    <label for="Label">Лэйбл:</label>
+            <input type=text name="Label">
+        </p>
+        <p>
+		   <label for="songName">Название песни:</label>
+          <input type=text name="songName">
+        </p>
+		 <p>
+		   <label for="year">Год:</label>
+           от <input type=text name="year"> до <input type=text name="yearafter">
+        </p>
+ 		 <p>
+		  <label for="position">Позиция в чартах: </label>
+           от <input type=text name="position"> до <input type=text name="positionafter">
+        </p>
+        <p>
+		   <label for="Sales">Продажи:</label>
+           от <input type=text name="Sales"> до <input type=text name="Salesafter">
+        </p>
+        <input type=button value="Найти">		
+	</form>	
+</details> 
+<details>
+    <summary>Сортировка</summary>
+    <form>
+	  <p>
+          Первый уровень:
+          <select name="sortFirst">
+            <option value="0">Нет</option>
+            <option value="1">Имя</option>
+            <option value="2">Лэйбл</option>
+            <option value="3">Название песни</option>
+            <option value="4">Год</option>
+			<option value="6">Позиция в чартах</option>
+            <option value="5">Продажи</option>
+          </select>
+          по убыванию? <input  type="checkbox"  name= "First" >
+        </p>  
+        <p>
+          Второй уровень:
+          <select name="sortSecond">
+		  <option value="0">Нет</option>
+          <option value="1">Имя</option>
+          <option value="2">Лэйбл</option>
+          <option value="3">Название песни</option>
+          <option value="4">Год</option>
+          <option value="6">Позиция в чартах</option>
+          <option value="5">Продажи</option>
+          </select>
+          по убыванию? <input  type="checkbox"  name= "Second" >
+        </p>
+        <p>
+          Третий уровень:
+          <select name="sortThird">
+            <option value="0">Нет</option>
+            <option value="1">Имя</option>
+            <option value="2">Лэйбл</option>
+            <option value="3">Название песни</option>
+            <option value="4">Год</option>
+			<option value="6">Позиция в чартах</option>
+            <option value="5">Продажи</option>
+          </select>
+          по убыванию? <input  type="checkbox"  name= "Third" >
+        </p>
+      <input type=button value="Сортировать">		
+	</form>	
+</details> 
+<details>
+    <summary> График </summary>
+    <form>
+        <table>
+          <tr>
+            <th>Значениe по оси OX</th>
+            <th>Результат</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="ox" value="0">Лэйбл<br>
+              <input type="radio" name="ox" value="1">Год<br>
+              <input type="radio" name="ox" value="2">Продажи<br>
+            </td>
+            <td>
+              <input type="checkbox" name="oy" value="0">Максимальная позиция в чартах<br>
+              <input type="checkbox" name="oy" value="1">Минимальная позиция в чартах<br>
+			  <input type="checkbox" name="oy" value="2">Количество песен<br>
+            </td>
+          </tr>
+        </table>
+		<input type=button value="Построить">
+	</form>	
+</details> 
+<br>    
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr><th>Имя</th><th>Лэйбл</th><th>Название песни</th><th>Год</th><th>Позиция в чартах</th><th>Продажи</td></tr>
+	<tr><td>pH-1</td><td>H1ghr Music</td><td>HALO</td><td>2019</td><td>21</td><td>3,782</td></tr>
+    <tr><td>pH-1</td><td>H1ghr Music</td><td>X</td><td>2020</td><td>27</td><td>4,579</td></tr>
+    <tr><td>pH-1</td><td>H1ghr Music</td><td>The Island Kid</td><td>2017</td><td>45</td><td>3,9982</td></tr>
+    <tr><td>pH-1</td><td>H1ghr Music</td><td>"Orange" (주황색)</td><td>2019</td><td>56</td><td>67,782</td></tr>
+    <tr><td>pH-1</td><td>H1ghr Music</td><td>"Malibu" (feat. The Quiett)</td><td>2019</td><td>11</td><td>5,782</td></tr>
+    <tr><td>GroovyRoom</td><td>H1ghr Music</td><td>Somewhere</td><td>2020</td><td>52</td><td>780</td></tr>
+    <tr><td>GroovyRoom</td><td>H1ghr Music</td><td>By Your Color</td><td>2021</td><td>10</td><td>5,900</td></tr>
+    <tr><td>GroovyRoom</td><td>H1ghr Music</td><td>"Карабин" (잡아줄게)</td><td>2021</td><td>82</td><td>21,054</td></tr>
+    <tr><td>GroovyRoom</td><td>H1ghr Music</td><td>Tell me</td><td>2022</td><td>9</td><td>78,900</td></tr>
+    <tr><td>GroovyRoom</td><td>H1ghr Music</td><td>Achoo Remix</td><td>2021</td><td>19</td><td>900</td></tr>
+    <tr><td>Jay Park</td><td>AOMG</td><td>Star</td><td>2012</td><td>1</td><td>8,900</td></tr>
+    <tr><td>Jay Park</td><td>AOMG</td><td>I Can't Be Without You</td><td>2013</td><td>2</td><td>8,700</td></tr>
+    <tr><td>Jay Park</td><td>AOMG</td><td>I Got Your Back</td><td>2012</td><td>13</td><td>8,900</td></tr>
+    <tr><td>Jay Park</td><td>AOMG</td><td>New Breed</td><td>2014</td><td>5</td><td>99,900</td></tr>
+    <tr><td>Jay Park</td><td>AOMG</td><td>Mommae</td><td>2015</td><td>1</td><td>134,900</td></tr>
+    <tr><td>Mirani</td><td>AREA</td><td>VVS</td><td>2020</td><td>1</td><td>634,900</td></tr>
+    <tr><td>Mirani</td><td>AREA</td><td>Uptown girl</td><td>2020</td><td>1</td><td>934,900</td></tr>
+    <tr><td>Mirani</td><td>AREA</td><td>Daisy</td><td>2021</td><td>2</td><td>834,900</td></tr>
+    <tr><td>Mirani</td><td>AREA</td><td>Achoo</td><td>2021</td><td>1</td><td>63,900</td></tr>
+    <tr><td>Mirani</td><td>AREA</td><td>Lambo!</td><td>2020</td><td>5</td><td>574,900</td></tr>
+    <tr><td>Haon</td><td>Genie music</td><td>Travel: Noah</td><td>2018</td><td>21</td><td>2,167</td></tr>
+    <tr><td>Haon</td><td>Genie music</td><td>Adios</td><td>2018</td><td>26</td><td>5,167</td></tr>
+    <tr><td>Haon</td><td>Genie music</td><td>The Little Prince</td><td>2018</td><td>8</td><td>2,190</td></tr>
+    <tr><td>Haon</td><td>Genie music</td><td>Youth!</td><td>2019</td><td>4</td><td>67,107</td></tr>
+    <tr><td>Haon</td><td>Genie music</td><td>Empty</td><td>2019</td><td>21</td><td>567,167</td></tr>
+    <tr><td>Big Naughty</td><td>H1ghr Music</td><td>Bucket list</td><td>2021</td><td>31</td><td>10,615</td></tr>
+    <tr><td>Big Naughty</td><td>H1ghr Music</td><td>Nangman</td><td>2022</td><td>15</td><td>10,000</td></tr>
+    <tr><td>Big Naughty</td><td>H1ghr Music</td><td>"Bada" (바다)</td><td>2019</td><td>48</td><td>17,995</td></tr>
+    <tr><td>Big Naughty</td><td>H1ghr Music</td><td>"010" (전화번호)</td><td>2021</td><td>31</td><td>110,615</td></tr>
+    <tr><td>Big Naughty</td><td>H1ghr Music</td><td>"Just 10 Centimeters" (딱 10CM만)</td><td>2022</td><td>8</td><td>190,567</td></tr>
+    <tr><td>Jay B</td><td>CDNZA Records</td><td>SOMO:Fume</td><td>2021</td><td>5</td><td>99,367</td></tr>
+    <tr><td>Jay B</td><td>CDNZA Records</td><td>Love</td><td>2022</td><td>5</td><td>99,367</td></tr>
+    <tr><td>Jay B</td><td>CDNZA Records</td><td>Be yourself</td><td>2021</td><td>3</td><td>52,724</td></tr>
+    <tr><td>Jay B</td><td>CDNZA Records</td><td>Abandoned Love</td><td>2022</td><td>7</td><td>51,453</td></tr>
+    <tr><td>Jay B</td><td>CDNZA Records</td><td>Rainy</td><td>2018</td><td>13</td><td>909,367</td></tr>
+    <tr><td>Ash Island</td><td>Ambition musik</td><td>Night Vibe (Remake)</td><td>2018</td><td>3</td><td>2,424</td></tr>
+    <tr><td>Ash Island</td><td>Ambition musik</td><td>Paranoid</td><td>2019</td><td>1</td><td>25,424</td></tr>
+    <tr><td>Ash Island</td><td>Ambition musik</td><td>Empty Head</td><td>2018</td><td>3</td><td>2,424</td></tr>
+    <tr><td>Ash Island</td><td>Ambition musik</td><td>"Error"feat. Loopy</td><td>2020</td><td>1</td><td>2980,567</td></tr>
+    <tr><td>Ash Island</td><td>Ambition musik</td><td>"Melody" (멜로디)</td><td>2020</td><td>1</td><td>891,424</td></tr>
+    
+
+	
+    
+</table>
+</body>
+</html>
